@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore">0</h1>
+        <form>
+          <label for="score"></label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+          /><br />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onClick="saveHighScore(event)"
+            disabled
+          />Save </button>
+        </form>
+        <!-- <button class="btn">Play Again<a id="play" href="/QuizzApp/game.html"></a></button>
+        <button class="btn">Go Home<a id="goHome"href="/QuizzApp/index.html"></a></button> -->
+        <a id="play" class="btn" href="/QuizzApp/game.html">Plain Again</a>
+        <a id="goHome" class="btn" href="/QuizzApp/index.html">Go Home</a>
+    </div>
+    </div>
+  </body>
+  <script src="end.js"></script>
+</html>
+
+<!-- <h1 id="final-score">The end!</h1>
+<div class="container">
+  <div id="end" class="flex-center flex-column">
+        <form>
+                <input type="text" name="username" id="username" placeholder="Username" />
+                <button
+                  type="submit"
+                  class="btn"
+                  id="saveScoreBtn"
+                  onClick="saveHighScore(event)"
+                > Save 
+                <button/>
+              </form>
+  </div>
+</div> -->

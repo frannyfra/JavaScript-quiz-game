@@ -1,0 +1,64 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.7rem;
+    font-size: 1.8rem;
+    border: 0.1rem solid white;
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(122, 12, 77);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  
+  .correct {
+    background-color: #9acd32;
+  }
+  
+  .incorrect {
+    background-color: #ff0000;
+  }
+  
+  #display {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .display-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .display-main-text {
+    text-align: center;
+  }
+  
+  #progressbar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid purple;
+    margin-top: 1.5rem;
+  }
+  
+  #progressbar-full {
+    height: 3.4rem;
+    background-color: purple;
+    /* width: 0%; */
+  }
+  

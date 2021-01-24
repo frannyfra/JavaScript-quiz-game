@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quizz Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="display">
+        <div id="display-item">
+          <p class="display-prefix" id="progress-text"></p>
+          <div class="progress-bar" id="progressbar">
+            <div class="progress-bar-full" id="progressbar-full"></div>
+          </div>
+        </div>
+        <div id="display-item">
+          <p class="display-prefix">Score:</p>
+          <h1 class="diplay-main-text" id="score-counter" data-score="0"></h1>
+        </div>
+      </div>
+      <h3 id="question"></h3>
+      <div id="game" class="justify-center flex-column">
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
